@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samit Panda - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+      <a href="#home" class="logo"><h1>Samit Panda</h1></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#goal">Goals</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="container">
+      <h1>Hi, I'm <span>Samit Panda</span></h1>
+      <p>B.Tech Student | Aspiring Software Engineer</p>
+      <div class="buttons">
+        <a href="#projects" class="btn">View My Projects</a>
+        <a href="UpdateSamit.pdf" class="btn">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="profile-container">
+      <img src="SamitImg1.jpg" alt="Samit Panda" class="profile-pic">
+    </div>
+      <p>
+        I'm a third-year B.Tech student specializing in Computer Science. I'm currently learning Data Structures and Algorithms in C++ and MERN stack development to build scalable web applications. My goal is to become a Software Engineer at Google (Alphabet).
+      </p>
+      <div class="skills">
+        <span>C++</span>
+        <span>DSA</span>
+        <span>MERN Stack</span>
+        <span>HTML/CSS/JS</span>
+        <span>Problem Solving</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+  <h2 class="section-title">My Projects</h2>
+  <div class="projects-container">
+    
+    <div class="project-card">
+      <h3 class="project-title">Amazon Price Tracker</h3>
+      <p class="project-description">
+        A web scraping tool using Python (Requests + BeautifulSoup) that monitors Amazon product prices and sends alerts when prices drop below a threshold.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <h3 class="project-title">Stock Trend Prediction</h3>
+      <p class="project-description">
+        Built with LSTM neural networks in Python, this project forecasts stock price trends based on historical data patterns using deep learning techniques.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="goal" class="goal-section">
+  <h2>My Goal</h2>
+  <p class="goal-text">
+    My ambition is to become a skilled Software Engineer, continuously learning and growing in the field of technology. I aspire to contribute meaningfully to the world through innovation, problem-solving, and impactful work that inspires change and makes life better for others.
+  </p>
+</section>
+
+
+  <section id="hobbies" class="hobbies-section">
+  <h2>My Hobbies</h2>
+  <ul class="hobbies-list">
+    <li>✈️ Travelling – Exploring new places and cultures</li>
+    <li>🏏 Playing Cricket – Passionate about the game</li>
+    <li>🎧 Listening to Music – Helps me relax and focus</li>
+    <li>📚 Learning New Things – Especially in tech and skills</li>
+    <li>📰 Staying Updated – Following world news and current affairs</li>
+  </ul>
+</section>
+
+
+
+  <!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <form action="https://formsubmit.co/souravguin0110@gmail.com" method="POST">
+      <!-- Disable CAPTCHA and redirect after submit -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://your-portfolio-site.com/thank-you.html">
+      
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <div class="social-links">
+      <a href="mailto:samitpanda59@gmail.com" target="_blank">Email</a>
+      <a href="https://www.linkedin.com/in/samit-panda-8b87562ab/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/samitpanda" target="_blank">GitHub</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2023 Samit Panda | Made with ❤️ and ☕</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
